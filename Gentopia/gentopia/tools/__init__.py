@@ -13,10 +13,13 @@ from .gradio import *
 from .code_interpreter import PythonCodeInterpreter
 from .file_operation import WriteFile, ReadFile
 from .duckduckgo import DuckDuckGo
-
+from .read_pdf import ReadPDF
+from .Image_describer import ImageDescriber
 
 def load_tools(name: str) -> BaseTool:
     name2tool = {
+        "Image_describer": ImageDescriber,
+        "read_pdf": ReadPDF,
         "arxiv_search": ArxivSearch,
         "calculator": Calculator,
         "python_code_interpreter": PythonCodeInterpreter,
@@ -47,3 +50,5 @@ def load_tools(name: str) -> BaseTool:
     if name not in name2tool:
         raise NotImplementedError
     return name2tool[name]
+
+

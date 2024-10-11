@@ -1,0 +1,46 @@
+INFO:root:Creating Config from file: ./gentpool/pool/IA/agent.yaml
+INFO:root:Starting to load configuration from ./gentpool/pool/IA/agent.yaml
+INFO:root:Successfully loaded configuration from ./gentpool/pool/IA/agent.yaml
+INFO:root:--------------------
+INFO:root:[green]Welcome to Gentopia!
+INFO:root:--------------------
+INFO:root:[green]User: 
+INFO:root:IA is thinking...
+INFO:root:Done
+INFO:root:[blue]IA: 
+INFO:root:{"name":"Image_describer", "arguments":{"image_url":"https://webegin.us/media/2021/06/plain-text.png"}}
+
+INFO:root:Calling function: Image_describer ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:Image format: PNG
+Image size: (700, 402)
+Image mode: RGB
+
+Extracted Text (if any):
+Write Everyday — Edited +
+
+Nov. 11
+
+Call me Ishmael. Some years ago-never mind how long precisely-
+having Little or no money in my purse, and nothing particular to
+interest me on shore, I thought I would sail about a little and
+see the watery part of the world. It is a way I have of driving
+off the spleen and regulating the circulation. Whenever I find
+myself growing grim about the mouth; whenever it is a damp,
+drizzly November in my soul; whenever I find myself involuntarily
+pausing before coffin warehouses, and bringing up the rear of
+every funeral I meet; and especially whenever my hypos get such an
+upper hand of me, that it requires a strong moral principle to
+prevent me from deliberately stepping into the street, and
+
+
+INFO:root:--------------------
+INFO:root:IA is thinking...
+INFO:root:Done
+INFO:root:[blue]IA: 
+INFO:root:The image is a PNG file with dimensions of 700x402 pixels. It features a text excerpt from the novel "Moby Dick" by Herman Melville. The text begins with the famous line "Call me Ishmael" and continues to describe the narrator's feelings and thoughts about sailing and life. The excerpt reflects a sense of melancholy and introspection, mentioning themes such as money, interest in life, and the narrator's emotional state during a "damp, drizzly November." The image is labeled "Write Everyday — Edited +" and is dated Nov. 11.
+INFO:root:Done
+INFO:root:[green]User: 
+INFO:root:
+[red]Bye!
